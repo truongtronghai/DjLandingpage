@@ -1,0 +1,167 @@
+{% extends './base.html' %}
+{% load static %}
+
+
+{% block title %}
+An Hòa - Chuyên cung cấp tôm khô, ruốc khô, các loại thủy hải sản khô, thực phẩm khô
+{% endblock %}
+
+{% block page_content %}
+
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-16 w3-center light-green" id="home">
+      <div class="w3-hide-large w3-hide-medium" style="width:100%">
+          <img src={% static 'landing/logo-an-hoa-small.jpg' %}>
+      </div>
+    <h1 class="w3-text-deep-orange">AN HÒA</h1>
+    <p>Chuyên cung cấp tôm khô, ruốc khô, các loại thủy hải sản khô, thực phẩm khô</p>
+    <img src="{% static 'landing/tom-kho-by-beth-macdonald-unsplash.jpg' %}" alt="tom kho" class="w3-image" width="992">
+  </header>
+  <!-- Information Section -->
+  <div class="w3-content w3-justify w3-padding-16">
+      <h2 class="w3-text-indigo" id="service">Giới thiệu về chúng tôi</h2>
+      <hr style="width:200px" class="w3-opacity">
+      <p>
+          Bạn đang cần tìm một nhà cung cấp chuyên nghiệp, tin cậy cho các mặt hàng tôm khô, con ruốc khô hay các loại thủy hải sản khô, thực phẩm khô nào khác, hãy để An Hòa hân hạnh mang đến bạn nguồn cung cấp chất lượng như bạn mong muốn.
+     </p>
+     <p>
+         Với hơn 30 năm kinh nghiệm trong lĩnh vực bán buôn , bán lẻ các mặt hàng tôm khô, ruốc khô ... , An Hòa đã cung cấp cho thị trường các sản phẩm thuộc lĩnh vực thủy hải sản khô đáp ứng yêu cầu về chất lượng cho người tiêu dùng và doanh nghiệp.
+     </p>
+     <p>
+         Các sản phẩm An Hòa cung cấp cho khách hàng và đối tác đều đáp ứng Công bố chất lượng của cơ quan quản lý thực phẩm Việt Nam cấp. Nơi đóng gói, sản xuất của An Hòa đạt tiêu chuẩn Cơ sở đủ điều kiện an toàn vệ sinh thực phẩm do Cơ quan y tế địa phương cấp và quản lý.
+     </p>
+
+    <h2 class="w3-text-indigo"  id="info">Tôm khô</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half w3-margin-bottom">
+          <img src="{% static 'landing/tom-kho-trung-loai-1-01-416x416.jpg' %}" alt="tôm" class="w3-image">
+        </div>
+        <div class="w3-half w3-margin-bottom">
+            <ul class="w3-ul w3-white">
+              <li class="w3-dark-grey w3-padding-16">Được chọn lựa kỹ lưỡng để mang đến sản phẩm có chất lượng cao nhất</li>
+              <li class="w3-padding-16">Nhiều kích cỡ, chủng loại và mức giá đáp ứng mọi nhu cầu của khách hàng</li>
+              <li class="w3-dark-grey w3-padding-16">Các sản phẩm tôm khô bán lẻ được đóng gói đẹp và cẩn thận</li>
+              <li class="w3-padding-16">Được khách hàng chọn lựa làm quà tặng trong các dịp Lễ, Tết hoặc bạn bè ở xa</li>
+              <li class="w3-dark-grey w3-padding-16">Các khách hàng doanh nghiệp chọn An Hòa như một đối tác tin cậy cho mặt hàng tôm khô và ruốc khô</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="w3-row-padding w3-hide-small" style="margin:0 -16px">
+        <img src="{% static 'landing/TomkhoAnHoa400g-1-324x324.jpg' %}" alt="tom kho an hoa 400" class="w3-image w3-left w3-margin-right" />
+        <img src="{% static 'landing/tom-kho-100-01-324x324.jpg' %}" alt="tom kho an hoa 100" class="w3-image w3-left w3-margin-right" />
+        <img src="{% static 'landing/TomkhoAnHoa200g-1-324x324.jpg' %}" alt="tom kho an hoa 200" class="w3-image w3-left w3-margin-right" />
+    </div>
+
+    <div class="w3-row-padding w3-hide-large w3-hide-medium" style="margin:0 -16px">
+        <img src="{% static 'landing/tom-kho-400g-100x100.jpg' %}" alt="tom kho an hoa 400" class="w3-image w3-left w3-margin-right" />
+        <img src="{% static 'landing/tom-kho-100g-100x100.jpg' %}" alt="tom kho an hoa 100" class="w3-image w3-left w3-margin-right" />
+        <img src="{% static 'landing/tom-kho-200g-100x100.jpg' %}" alt="tom kho an hoa 200" class="w3-image w3-left w3-margin-right" />
+    </div>
+
+    <h2 class="w3-text-indigo">Ruốc khô</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half w3-margin-bottom">
+          <img src="{% static 'landing/ruoc-kho-an-hoa.jpg' %}" alt="ruốc khô" class="w3-image">
+        </div>
+
+        <div class="w3-half w3-margin-bottom">
+            <ul class="w3-ul w3-white">
+              <li class="w3-dark-grey w3-padding-16">Con ruốc được chọn lựa từ những vùng nguyên liệu nổi tiếng của Việt Nam như: Cà Mau, Bạc Liêu, ...</li>
+              <li class="w3-padding-16">Nhiều kích cỡ, chủng loại và mức giá đáp ứng mọi nhu cầu của khách hàng</li>
+              <li class="w3-dark-grey w3-padding-16">Sản phẩm Ruốc khô 200g được đóng gói và có mặt tại các siêu thị ở thành phố Hồ Chí Minh và các tỉnh thành khác</li>
+              <li class="w3-padding-16">Các đối tác doanh nghiệp sử dụng con ruốc khô như một thành phần không thể thiếu cho các sản phẩm thực phẩm chất lượng và hợp khẩu vị người tiêu dùng</li>
+            </ul>
+        </div>
+    </div>
+
+      <h2 class="w3-text-indigo">Nếu bạn là khách hàng doanh nghiệp, An Hòa đáp ứng đầy đủ:</h2>
+      <hr style="width:200px" class="w3-opacity">
+      <div class="w3-row-padding" style="margin:0 -16px">
+
+              <ul class="w3-ul">
+                <li class="w3-padding-16 w3-grey">Sản phẩm chất lượng đáp ứng yêu cầu của quý khách</li>
+                <li class="w3-padding-16 w3-light-grey">Nhiều chủng loại, kích cỡ sản phẩm, mức giá phù hợp</li>
+                <li class="w3-padding-16 w3-grey">Sản phẩm Tôm khô và Ruốc khô An Hòa có Hồ sơ Công bố và Kiểm nghiệm theo qui định của Bộ Y Tế .Cơ sở kinh doanh có giấy chứng nhận đủ điều kiện An Toàn Vệ Sinh Thực Phẩm do sở Y Tế TP.HCM cấp </li>
+                <li class="w3-padding-16 w3-light-grey">Hóa đơn bán hàng theo quy định của các cơ quan quản lý Việt Nam</li>
+              </ul>
+      </div>
+
+        <h2 class="w3-text-indigo"  id="customer">Tôm khô và Ruốc khô của An Hòa bán lẻ ở đâu?</h2>
+        <hr style="width:200px" class="w3-opacity">
+        <div class="w3-row-padding" style="margin:0 -16px">
+            <table class="w3-table-all">
+            <tr class="w3-hover-grey">
+              <td><h4>Hệ thống siêu thị Co.opmart</h4></td>
+              <td class="w3-center">
+                 <img src="{% static 'landing/logo-coopmart.jpg' %}" alt="coopmart" class="w3-left w3-circle w3-margin-right" style="width:80px">
+              </td>
+            </tr>
+            <tr class="w3-hover-grey">
+              <td><h4>Hệ thống siêu thị 3Sạch Food</h4></td>
+              <td class="w3-center">
+                 <img src="{% static 'landing/logo-3sach.png' %}" alt="coopmart" class="w3-left w3-circle w3-margin-right" style="width:80px">
+              </td>
+            </tr>
+            <tr class="w3-hover-grey">
+              <td><h4>Hệ thống siêu thị BeeMart Lê Thành</h4></td>
+              <td class="w3-center">
+                 <img src="{% static 'landing/logo-beemart-le-thanh.jpg' %}" alt="beemart le thanh" class="w3-left w3-circle w3-margin-right" style="width:80px">
+              </td>
+            </tr>
+            <tr class="w3-hover-grey">
+              <td><h4>Siêu thị JMart</h4></td>
+              <td class="w3-center">
+                 <img src="{% static 'landing/logo-jmart.jpg' %}" alt="jmart" class="w3-left w3-circle w3-margin-right" style="width:80px">
+              </td>
+            </tr>
+            <tr class="w3-hover-grey">
+              <td><h4>Ứng dụng Grabmart</h4></td>
+              <td class="w3-center">
+                 <img src="{% static 'landing/logo-grabmart.jpg' %}" alt="grabmart" class="w3-left w3-circle w3-margin-right" style="width:80px">
+              </td>
+            </tr>
+            <tr class="w3-hover-grey">
+              <td><h4><a href="https://bepcuaha.com">Bepcuaha.com</a></h4></td>
+              <td class="w3-center">
+                 <img src="{% static 'landing/logo-bep-cua-ha.jpg' %}" alt="bepcuaha" class="w3-left w3-circle w3-margin-right" style="width:80px">
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <h2 class="w3-text-indigo">An Hòa hân hạnh là đối tác của các đơn vị:</h2>
+        <hr style="width:200px" class="w3-opacity">
+        <div class="w3-row-padding" style="margin:0 -16px">
+            <img src="{% static 'landing/logo-vissan.jpg' %}" alt="vissan" class="w3-image w3-left w3-margin-right" />
+            <img src="{% static 'landing/logo-miliket.jpg' %}" alt="miliket" class="w3-image w3-left w3-margin-right" />
+            <img src="{% static 'landing/logo-cp.png' %}" alt="cp vietnam" class="w3-image w3-left w3-margin-right" />
+            <img src="{% static 'landing/logo-freshcofood.png' %}" alt="freshcofood" class="w3-image w3-left w3-margin-right" />
+            <img src="{% static 'landing/logo-vianco.png' %}" alt="vianco" class="w3-image w3-left w3-margin-right" />
+        </div>
+
+    {# include "./skill_reveal.html" #}
+
+    {# include './price_table.html' #}
+
+    {# include './testimonials.html' #}
+
+  <!-- End Information Section -->
+  </div>
+
+{# include './photos.html' #}
+
+{% include './contact.html' %}
+
+<!-- Footer -->
+{% include './footer.html' %}
+<!-- End footer -->
+
+</div>
+
+{% include "./flashmessagesmodal.html" %}
+
+{% endblock %}
